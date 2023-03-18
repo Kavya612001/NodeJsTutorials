@@ -2,9 +2,9 @@
 const {readFile, writeFile} = require('fs').promises;
 
 // promisify is a builtin fn present in the utils package, it returns a promise as a response
-const util = require('util');
-const readFilePromise = util.promisify(readFile);
-const writeFilePromise = util.promisify(writeFile);
+// const util = require('util');
+// const readFilePromise = util.promisify(readFile);
+// const writeFilePromise = util.promisify(writeFile);
 
 
 
